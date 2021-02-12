@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Mark Converter</string>
+    <string name="pre_title">Convert your marks easily and faster than ever</string>
+</resources>
