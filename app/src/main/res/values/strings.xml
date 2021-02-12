@@ -16,4 +16,6 @@ limitations under the License.
 <resources>
     <string name="app_name" translatable="false">Mark Converter</string>
     <string name="pre_title">Convert your marks easily and faster than ever</string>
+    <string name="start">Start</string>
+    <string name="copyright" translatable="false">Copyright 2021 Ryanhtech Labs</string>
 </resources>
