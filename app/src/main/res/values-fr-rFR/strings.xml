@@ -16,4 +16,5 @@ limitations under the License.
 <resources>
     <string name="pre_title">Convertissez vos notes facilement et plus rapidement que jamais</string>
     <string name="start">Suivant</string>
+    <string name="wizard_title">Veuillez entrer les information demandées</string>
 </resources>

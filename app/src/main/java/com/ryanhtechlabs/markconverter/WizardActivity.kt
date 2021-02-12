@@ -1,4 +1,6 @@
-<!-- Copyright 2021 Ryanhtech Labs
+package com.ryanhtechlabs.markconverter
+
+/* Copyright 2021 Ryanhtech Labs
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -11,12 +13,14 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
--->
+*/
 
-<resources>
-    <string name="app_name" translatable="false">Mark Converter</string>
-    <string name="pre_title">Convert your marks easily and faster than ever</string>
-    <string name="start">Start</string>
-    <string name="copyright" translatable="false">Copyright 2021 Ryanhtech Labs</string>
-    <string name="wizard_title">Please enter the following info</string>
-</resources>
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class WizardActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_wizard)
+    }
+}
